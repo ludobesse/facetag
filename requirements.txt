@@ -1,0 +1,10 @@
+# Étape 1 : import Google Contacts
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2
+requests>=2.31
+
+# Étapes suivantes (déjà listées pour préparer l'environnement)
+opencv-python>=4.10      # YuNet (détection) + SFace (reconnaissance)
+numpy>=1.26
+PySide6>=6.7             # application de bureau

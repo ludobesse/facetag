@@ -1,0 +1,23 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Identifiants et jetons Google (ne jamais publier)
+client_secret*.json
+google_client.json
+google_token.json
+default_google_client.json
+
+# Données personnelles
+*.db
+*.vcf
+*.csv
+debug/
+config.json
+
+# Outils téléchargés et fichiers propres à ce PC
+tools/
+*.lnk
+*.log
+.env
